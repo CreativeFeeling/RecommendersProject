@@ -1,0 +1,37 @@
+Unique categories of some columns in data
+=================================================
+
+["rented for"] : ['vacation' 'other' 'party' 'formal affair' 'wedding' 'date' 'everyday'
+ 'work' nan 'party: cocktail']
+
+["category"] : ['romper' 'gown' 'sheath' 'dress' 'leggings' 'top' 'jumpsuit' 'sweater'
+ 'jacket' 'shirtdress' 'maxi' 'shift' 'pants' 'shirt' 'mini' 'skirt'
+ 'pullover' 'blouse' 'suit' 'coat' 'trench' 'bomber' 'cape' 'blazer'
+ 'vest' 'duster' 'ballgown' 'tank' 'poncho' 'frock' 'tunic' 'cardigan'
+ 'culottes' 'down' 'trouser' 'midi' 'pant' 'legging' 'print' 'knit'
+ 'culotte' 'sweatshirt' 'peacoat' 'kaftan' 'overalls' 'jogger' 'tee'
+ 'combo' 'henley' 'cami' 'blouson' 'turtleneck' 'trousers' 'overcoat'
+ 'hoodie' 't-shirt' 'caftan' 'tight' 'kimono' 'for' 'crewneck' 'skirts'
+ 'parka' 'buttondown' 'skort' 'sweatershirt' 'sweatpants' 'jeans']
+
+["fit"] : ['fit' 'small' 'large']
+
+["body type"] : ['hourglass' 'straight & narrow' nan 'pear' 'athletic' 'full bust'
+ 'petite' 'apple']
+
+["bust size"] : ['34d' '34b' nan '34c' '32b' '34d+' '36d' '36a' '32d+' '36c' '32c' '32dd'
+ '30dd' '32d' '36b' '34a' '34dd' '40ddd/e' '32a' '38d+' '38c' '34ddd/e'
+ '38a' '38b' '38d' '36ddd/e' '38dd' '38f' '42dd' '36dd' '40g' '40dd' '28f'
+ '30ddd/e' '32ddd/e' '28b' '36d+' '40d' '28dd' '34f' '42c' '30d' '30b'
+ '42d' '34aa' '32aa' '36f' '28c' '40b' '36aa' '34g' '32f' '42ddd/e' '40c'
+ '28g' '28aa' '36g' '30a' '44ddd/e' '30c' '30aa' '44dd' '32i' '32g' '30g'
+ '38h' '30h' '34j' '38ddd/e' '32h' '28a' '44d' '40h' '38g' '34h' '36j'
+ '40f' '36h' '28ddd/e' '44f' '34i' '30f' '36i' '30i' '28h' '42b' '42j'
+ '32j' '46c' '48d' '38aa' '38i' '48dd' '28d' '28i' '46ddd/e' '42g' '44c'
+ '42f' '40j' '38j' '46f' '44b' '44g' '42h' '40i' '44h']
+
+
+
+
+
+
