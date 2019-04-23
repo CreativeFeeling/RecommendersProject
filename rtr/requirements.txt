@@ -1,0 +1,11 @@
+## CORE REQUIREMENTS
+Django==2.1.5                                # Web framework
+pytz==2018.9                                 # Timezone support
+django-extensions==2.1.4                     # Various Django extras
+ipython==7.2.0                               # Better Django shell experience
+django-bootstrap4==0.0.7                     # Bootstrap 4 support
+django-bootstrap-datepicker==1.3.1           # Bootstrap datepicker support
+python-dateutil==2.7.5                       # Because datetimes are terrible
+django-dynamic-formsets==0.0.8               # for javascript formsets
+
+## PRODUCTION REQUIREMENTS
