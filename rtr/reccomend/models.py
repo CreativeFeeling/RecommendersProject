@@ -3,8 +3,9 @@ from django.db import models
 class ClothingItem(models.Model):
     item_id = models.IntegerField(blank=True, null=True)
     event_type = models.CharField(max_length=50)
+    avg_rating = models.IntegerField(blank=True, null=True)
 
-class Ratings(models.Model):
+class Rating(models.Model):
     item_id = models.IntegerField(blank=True, null=True)
     user_id = models.IntegerField(blank=True, null=True)
     colthing_bust = models.IntegerField(blank=True, null=True)

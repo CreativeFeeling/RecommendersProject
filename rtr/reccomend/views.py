@@ -3,10 +3,10 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return HttpResponse("Hello, world. You're at the reccomend index.")
 
-def tailorTag(request, question_id):
-    return HttpResponse("You're looking at question %s." % question_id)
+def tailorTag(request):
+    return HttpResponse("Enter in your sizes:")
 
 def explore(request):
     response = "You're looking at reccomendations based on just your sizes"
