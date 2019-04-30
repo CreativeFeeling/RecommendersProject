@@ -3,27 +3,30 @@
   <form action="/reccomend/explore/" method="post">
       {% csrf_token %}
       <div class="centered">
-      <div class="fieldWrapper">
-          <label for="{{ form.Age.id_for_label }}">Age:</label>
-          {{ form.Age }}
-      </div>
-      <div class="fieldWrapper">
-          <label for="{{ form.Size.id_for_label }}">Size:</label>
-          {{ form.Size }}
-      </div>
-      <div class="fieldWrapper">
-          <label for="{{ form.Bust.id_for_label }}">Bust:</label>
-          {{ form.Bust }}
-      </div>
-      <div class="fieldWrapper">
-          <label for="{{ form.Clothing_Type.id_for_label }}">Clothing Type:</label>
-          {{ form.Clothing_Type }}
-      </div>
-      <div class="fieldWrapper">
-          <label for="{{ form.Occasion.id_for_label }}">Occasion:</label>
-          {{ form.Occasion }}
-      </div>
-      <br><input type="submit" value="Submit">
+        <TT><FONT SIZE=+2>
+        <br> <br> <br>
+        <div class="fieldWrapper">
+            <label for="{{ form.Age.id_for_label }}">Age:</label>
+            {{ form.Age }}
+        </div><br>
+        <div class="fieldWrapper">
+            <label for="{{ form.Size.id_for_label }}">Size:</label>
+            {{ form.Size }}
+        </div><br>
+        <div class="fieldWrapper">
+            <label for="{{ form.Bust.id_for_label }}">Bust:</label>
+            {{ form.Bust }}
+        </div><br>
+        <div class="fieldWrapper">
+            <label for="{{ form.Clothing_Type.id_for_label }}">Clothing Type:</label>
+            {{ form.Clothing_Type }}
+        </div><br>
+        <div class="fieldWrapper">
+            <label for="{{ form.Occasion.id_for_label }}">Occasion:</label>
+            {{ form.Occasion }}
+        </div>
+        <br><input type="submit" value="Submit">
+        </TT>
       </div>
   </form>
 </div>
